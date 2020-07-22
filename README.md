@@ -20,10 +20,10 @@ You will need:
 
 Example input:
 
-![Example 1](https://i.imgur.com/zEQhU6m.png)
+![Example 1](https://imgur.com/coAPZLT.png)
+
 
 After you have completed all the steps, the video should render, and you should get something like this:
 *The example is a still image, but obviously the output is a video*
 
-![Example 2](https://imgur.com/coAPZLT.png)
-
+![Example 2](https://i.imgur.com/zEQhU6m.png)
