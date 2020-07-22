@@ -1,6 +1,5 @@
 #audio stuff
 from audio2numpy import open_audio
-import matplotlib.pyplot as plt
 
 #video stuff
 import cv2
@@ -12,7 +11,7 @@ import math
 #terminal color
 import platform
 
-if(platform.system() == "Linux"):
+if(platform.system() == "Linux"): #add colors to Linux terminal
     prefix = "\033[36m"
     suffix = "\033[39m"
 else:
