@@ -11,7 +11,7 @@ A simple tool to create nice graphics togeter with your .mp3 or .wav files.
 * audio2numpy
 
 ## How do I use it
-Simple, run this by using ´python3 main.py´.
+Simple, run this by using `python3 main.py`.
 A prompt should open, asking you to provide the path to all the necessary files
 You will need:
 * A sound file (.wav, .mp3, etc.)
