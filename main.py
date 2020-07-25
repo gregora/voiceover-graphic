@@ -91,6 +91,8 @@ for i in range(0, int(seconds * FPS)):
 paint_h = int(height/2)
 
 temporary_file = "/".join(output_file.split("/")[0:-1]) + "/temporary-" + output_file.split("/")[-1];
+if(temporary_file[0] == "/"):
+    temporary_file = temporary_file[1:]
 
 fourcc = VideoWriter_fourcc(*'MP4V')
 video = VideoWriter(temporary_file, fourcc, float(FPS), (width, height))
